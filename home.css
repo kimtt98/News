@@ -1,0 +1,53 @@
+body{max-width: 1580px;}
+.fsz{font-size: 14px; font-family: 'Roboto Slab', serif; color: black;}
+.font{font-family: 'Domine', serif;}
+.story__heading{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+.bg_cl{background-color: #f1f1f1;}
+.story__heading a{color: rgb(63, 54, 54);}
+.story__heading a:hover{text-decoration: none;color: rgb(21, 212, 37);}
+.title_h1:hover{text-decoration: none;color: rgb(25, 150, 233);}
+.h1_title{
+    font-family: 'Domine', serif;;
+    color: rgb(128, 12, 12);
+   
+    letter-spacing: 2px;
+
+}
+.nav-item:hover{font-weight: bold ;}
+.h1_title:hover{
+    font-weight: bold ;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+z-index: 1;}
+.or{color: orange;}
+.s  {
+  
+    font-size: 25px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(171, 175, 105);
+  }
+.s:hover{text-decoration: none;}
+.input_s:hover{
+    border:2px solid rgb(48, 228, 32);
+} 
+.input_s{box-shadow: 0 0 5px rgba(109,207,246,.5); border-radius: 10em; transition: all .5s;width: 35px; padding: 3px 5px 3px 2px;
+}
+.menu_danhmuc ul li a{color: rgb(58, 75, 11);}
+
+.time{font-size: 11px ; color: rgb(8, 70, 6);} 
+.b-r{border-radius: 5px;  box-shadow: 2px 4px rgb(230, 231, 231);;}
+@media screen and (max-width: 800px) {
+    .story__thumb img{width: 100%; height: 40%;}
+    
+    .menu_danhmuc{
+        display: none;
+    }
+    }
